@@ -1,0 +1,27 @@
+# 编译产物
+*.exe
+*.obj
+*.ilk
+*.pch
+*.pdb
+
+# Visual Studio / VC++ 项目文件（与贪吃蛇无关）
+*.dsp
+*.dsw
+*.ncb
+*.opt
+*.plg
+*.sln
+*.user
+*.suo
+Debug/
+Release/
+.vs/
+
+# 游戏运行时数据（本地用户数据，不纳入版本控制）
+users.dat
+gamelog.dat
+
+# 系统文件
+.DS_Store
+Thumbs.db

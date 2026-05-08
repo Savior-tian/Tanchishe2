@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "编译 Tanchishe_v2",
+            "type": "shell",
+            "command": "d:/program files (x86)/mingw/bin/g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/Tanchishe_v2.cpp",
+                "-o",
+                "${workspaceFolder}/Tanchishe_v2.exe",
+                "-Wall"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
